@@ -142,6 +142,14 @@ public class Prueba {
 		
 		//TAREA: APLICAR BYNARY SEARCH EN COLECCCIONES ALUMNOS
 		
+		/*
+		 *			REFERENCIAS
+		 *
+		 *	rpw. (2012). Implementar búsqueda binaria en objetos.
+		 *	2018, de stackoverrun.com
+		 *	Sitio web: https://stackoverrun.com/es/q/153957
+		 */
+		
 		System.out.println("BUSQUEDA EN COLECCIONES DE OBJETOS");
 		System.out.println();
 		int index = Collections.binarySearch(alumnos, new Alumno("Pedro", null, 0));
